@@ -4,8 +4,6 @@
 
  const name = " Mundo Vue 3 - MINEDUC!";
  const name2 = "Cristina Paredes B.";
-
-
  let counter = ref(0); // Lo convierte en un objeto reactuivo
  const arrayCounter  = ref([]);  // Convierte al arreglo en un arreglo reactivo
  
@@ -42,9 +40,7 @@ const blockNumber = computed(() => {
     return numSearch ? true: false;
 });
 
-
 </script>
-
 
 <template>
   <div class="container text-center mt-5">
@@ -71,7 +67,6 @@ const blockNumber = computed(() => {
     </div>
 
 </template>
-
 
 <style>
   .negativo {
